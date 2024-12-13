@@ -1,7 +1,5 @@
 /*jslint browser:true */
 "use strict";
-/*jslint browser:true */
-"use strict";
 
 function addMonths(elem) {
     let annualUseKw = 0, dailyUseKw = 0, i = 0, x = 0;
