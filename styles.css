@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS RESET BY MYE WEB */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html {
+  -webkit-text-size-adjust: none; }
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+	line-height: 1;
+	background-color: #000; /* Background color set to black */
+	color: #f00; /* Text color set to red */
+}
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300; /* loaded 300 and 700*/
+}
+
+header {
+	border-top: 40px solid #f00; /* Header border color set to red */
+	background-image: url(../images/sun.png);
+	background-repeat: no-repeat;
+	background-color: #000; /* Header background color set to black */
+}
+
+header h1 {
+	color: #f00; /* Header text color set to red */
+	font-size: 3rem;
+	padding: .5rem 0 .5rem 60px;
+}
+
+header, nav, main, footer {max-width: 960px; margin: 0 auto;}
+
+nav {
+	background-color: #000; /* Navigation background color set to black */
+}
+
+nav li {
+	float: left;
+	width: 25%;
+}
+
+nav li a {
+	color: #f00; /* Navigation link color set to red */
+	display: block;
+	text-decoration: none;
+	padding: .5rem 0;
+	width: 100%;
+	text-align: center;
+	border-right: 1px solid #f00; /* Border color set to red */
+}
+
+nav li.active a {
+	background-color: #660000; /* Active link background color (dark red) */
+}
+
+main {
+	padding: .3rem 2%;
+	display: block;
+	color: #f00; /* Main text color set to red */
+}
+
+main h1 {
+	color: #f00; /* Main H1 color set to red */
+	font-size: 2rem;
+	padding-top: 1rem;
+}
+
+main h2 {
+	color: #f00; /* Main H2 color set to red */
+	font-size: 1.5rem;
+	padding-top: 1rem;
+}
+
+main p {
+	line-height: 125%;
+	padding-bottom: .25rem;
+}
+
+main fieldset {
+	border: 1px solid #f00; /* Fieldset border color set to red */
+	border-radius: 10px;
+	padding: .5rem 2%;
+	margin-top: 1rem;
+	background-color: #000; /* Fieldset background color set to black */
+	color: #f00; /* Fieldset text color set to red */
+}
+
+main fieldset legend {
+	color: #f00; /* Legend text color set to red */
+	font-weight: 700;
+}
+
+main form label {
+	display: block;
+	padding: .4rem 0;
+	font-size: .75rem;
+	color: #f00; /* Form label color set to red */
+}
+
+main form span {
+	display: block;
+	font-size: .7rem;
+	color: #f00; /* Form span color set to red */
+}
+
+main form input {
+	width: 6rem;
+	font-size: .95rem;
+	background-color: #000; /* Input background color set to black */
+	color: #f00; /* Input text color set to red */
+	border: 1px solid #f00; /* Input border color set to red */
+}
+
+main form select {
+	width: 15rem;
+	background-color: #000; /* Select background color set to black */
+	color: #f00; /* Select text color set to red */
+	border: 1px solid #f00; /* Select border color set to red */
+}
+
+main button {
+	width: 240px;
+	border: none;
+	padding: .8rem;
+	color: #fff;
+	font-size: 1rem;
+	border-radius: 10px;
+	margin-top: 1rem;
+	background: #f00; /* Button background set to red */
+	background: linear-gradient(to bottom, #f00 1%, #660000 100%); /* Gradient red */
+}
+
+footer {
+	text-align: center;
+	background: #000; /* Footer background color set to black */
+	color: #f00; /* Footer text color set to red */
+	font-size: .75rem;
+	padding: 1rem 0;
+}
+
+.keepOpen {
+	clear: both;
+}
+
+main figure img {
+	width: 100%;
+}
+
+@media only screen and (min-width: 30em) {
+	main figure {
+		width: 70%;
+		float: right;
+	} 
+}
